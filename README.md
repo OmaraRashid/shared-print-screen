@@ -79,7 +79,7 @@ HTML
 </div>```
 <button [printSectionId]="printSectionId" [printStyle]="printStyle" [printTitle]="title" [useExistingCss]="true" [styleSheetFile]="styleSheetFile" ngxPrint>
   {{buttonName}}
-  <svg class="i-sml myvf-network">
+  <svg class="i-sml">
     <use [attr.xlink:href]="svgPath"></use>
   </svg>
 </button>
