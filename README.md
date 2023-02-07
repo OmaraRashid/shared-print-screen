@@ -113,4 +113,4 @@ you can put this in any component in your project
 
 # Conclusion
 
-The PrintScreenComponent is a useful tool for printing specific sections of a document in Angular applications. It can be easily integrated into any component in the project and allows for customization of the printed document through inputs such as print styles and title. With the use of the ngx-print library, the component ensures a smooth and efficient printing process .
+The PrintScreenComponent It can be easily integrated into any component in the project and allows for customization of the printed document through inputs such as print styles and title. With the use of the ngx-print package, the component ensures a smooth and efficient printing process .
