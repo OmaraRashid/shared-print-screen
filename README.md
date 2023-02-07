@@ -8,8 +8,8 @@ The PrintScreenComponent is a standalone, shared component in Angular that provi
 To use this component, follow the steps below:
 
     Install the ngx-print library by running npm i ngx-print.
-    Import the ngx-print module in your app.module.ts file.
-    Import the PrintScreenComponent in the module or in standalone componet where you want to use it .
+    Import the NgxPrintModule module in your shared.module.ts file.
+    Import sharedModule in the module or in standalone componet where you want to use it .
 
 
 # PrintScreenComponent
