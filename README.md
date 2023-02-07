@@ -78,6 +78,11 @@ HTML
   <ng-container *ngTemplateOutlet="template"></ng-container>
 </div>```
 <button [printSectionId]="printSectionId" [printStyle]="printStyle" [printTitle]="title" [useExistingCss]="true" [styleSheetFile]="styleSheetFile" ngxPrint>
+  {{buttonName}}
+  <svg class="i-sml myvf-network">
+    <use [attr.xlink:href]="svgPath"></use>
+  </svg>
+</button>
 ```
 
 In the HTML template, a div element with #printSection is created and has its id set to printSectionId. The ng-container directive is used to bind the passed template to the div. The button element is decorated with several inputs and the ngxPrint directive, which is used to initiate the printing process. The button displays the buttonName and the specified icon.
