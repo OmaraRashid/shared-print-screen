@@ -111,19 +111,6 @@ you can put this in any component in your project
 
 ```
 
-Inputs
-
-PrintScreenComponent accepts the following inputs:
-
-    printSectionId: string. ID of the element that will be printed. Must be unique across the parent component's template.
-    buttonName: string. The name that appears on the print screen button.
-    template: TemplateRef. The content that will be printed.
-    icon: string. The name of the icon that will appear beside the button.
-    printStyle: Object. Custom styles for elements inside the printed document. It's a dictionary where the key is the element selector and the value is a dictionary    of CSS properties and values.
-    title: string. The title of the printed document that will appear at the top of the printed window.
-    styleSheetFile: string. The name of the custom style sheet (CSS) file that will be imported for styling the printed window.
-    useCss: boolean. Determines whether to use the existing CSS in the printed document to avoid black & white printed document. Default value is true.
-
 # Conclusion
 
 The PrintScreenComponent is a useful tool for printing specific sections of a document in Angular applications. It can be easily integrated into any component in the project and allows for customization of the printed document through inputs such as print styles and title. With the use of the ngx-print library, the component ensures a smooth and efficient printing process .
